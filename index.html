@@ -1,101 +1,89 @@
-<!--home page-->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Micah Osorio Portfolio</title>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet" />
   </head>
+
   <body>
-      <head>
-        <!-- Site settings //-->
-        <title>Micah Osorio</title>
-
-        <!--link for fontawesome icons-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
-        <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;1,300&amp;display=swap" rel="stylesheet" />
-
-      </head>
-
-   
-
-        <!-- ==================== Top bar navigation ================== -->
-
-        <header class="main-navigation">
-          <div class="grid-container main-navigation">
-            <div class="top-bar">
-              <div class="top-bar-left">
-                <a class="me cell" href="index.html">Micah Osorio</a>
-              </div>
-              <div class="top-bar-right">
-                <ul class="main-menu inline-list">
-                  <li><a href="/about.html">About</a></li>
-                </ul>
-              </div>
-            </div>
+    <!-- Top bar navigation -->
+    <header class="main-navigation">
+      <div class="grid-container main-navigation">
+        <div class="top-bar">
+          <div class="top-bar-left">
+            <a class="me cell" href="index.html">Micah Osorio</a>
           </div>
-        </header>
+          <div class="top-bar-right">
+            <ul class="main-menu inline-list">
+              <li><a href="/about.html">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
 
-        <article class="grid-container">
-          
-        <!-- ================= main content ================= -->
-          <section class="grid-x grid-margin-x intro-section" id="content">
-   <div class="large-8 cell">
-                    <h1 class="intro" id="title">Hello! I'm Micah, a web designer who enjoys creating clean and engaging user interfaces with accessibility in mind</h1> 
-   </div>
-            <div class="profile-image">
-              <img src="https://github.com/micah-osorio/portfolio/blob/main/notion-avatar-micah.png?raw=true">
+    <article class="grid-container">
+      <!-- Intro -->
+      <section class="grid-x grid-margin-x intro-section">
+        <div class="large-8 cell">
+          <h1 class="intro">Hello! I'm Micah, a web designer who enjoys creating clean and engaging user interfaces with accessibility in mind</h1>
+        </div>
+        <div class="profile-image">
+          <img src="https://github.com/micah-osorio/portfolio/blob/main/notion-avatar-micah.png?raw=true" alt="Illustrated avatar of Micah Osorio" />
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="grid-x grid-margin-x project-listing">
+        <h2 class="cell sub-heading">Here are some of my work so far</h2>
+
+        <div class="large-4 cell">
+          <a href="/greenwich-online.html" class="media-object project-card">
+            <div class="content">
+              <img src="https://github.com/micah-osorio/portfolio/blob/main/card-cover-gro.png?raw=true" alt="Greenwich Online project cover" />
+              <div class="card-info">
+                <h3>Greenwich Online</h3>
+                <p>Led the design for student portal distance learning platform</p>
+              </div>
             </div>
-            
-          </section>
+          </a>
+        </div>
 
-          <section class="grid-x grid-margin-x project-listing" id="content">
-            <!-- ===== intro  ===== -->
-          <h2 class="cell sub-heading" id="title">Here are some of my work so far</h2> 
-            <div class="large-4 cell">
-                <a href="/greenwich-online.html" target="_self" class="media-object project-card">
-                  <div class="content">
-                    <img src="https://github.com/micah-osorio/portfolio/blob/main/card-cover-gro.png?raw=true" />
-                    <div class="card-info">
-                      <h3>Greenwich Online</h3>
-                      <p>Led the design for student portal distance learning platform</p>
-                    </div>
-                  </div>
-                </a>
-            </div><!--large-4 closing div-->
-            
-            <!-- ===== projects  ===== -->
-            <div class="large-4 cell">
-                <a href="/document-redesign.html" target="_self" class="media-object project-card">
-                  <div class="content">
-                    <img src="https://github.com/micah-osorio/portfolio/blob/main/card-cover-docs.png?raw=true" />
-                    <div class="card-info">
-                      <h3>Document Redesign</h3>
-                      <p>A redesign of the university's outdated document platform for the staff intranet</p>
-                    </div>
-                  </div>
-                </a>
+        <div class="large-4 cell">
+          <a href="/document-redesign.html" class="media-object project-card">
+            <div class="content">
+              <img src="https://github.com/micah-osorio/portfolio/blob/main/card-cover-docs.png?raw=true" alt="Document Redesign project cover" />
+              <div class="card-info">
+                <h3>Document Redesign</h3>
+                <p>A redesign of the university's outdated document platform for the staff intranet</p>
+              </div>
+            </div>
+          </a>
+        </div>
 
-            </div><!--large-4 closing div-->
-
-            <div class="large-4 cell">
-                <a href="/pattern-library.html" target="_self" class="media-object project-card">
-                  <div class="content">
-                    <img src="https://github.com/micah-osorio/portfolio/blob/main/card-cover-pattern.png?raw=true" />
-                    <div class="card-info">
-                      <h3>Digital Pattern Library</h3>
-                      <p>Developed a centralised pattern library for internal teams</p>
-                    </div>
-                  </div>
-                </a>
-            </div><!--large-4 closing div-->
-
-
-          </section>
+        <div class="large-4 cell">
+          <a href="/pattern-library.html" class="media-object project-card">
+            <div class="content">
+              <img src="https://github.com/micah-osorio/portfolio/blob/main/card-cover-pattern.png?raw=true" alt="Digital Pattern Library project cover" />
+              <div class="card-info">
+                <h3>Digital Pattern Library</h3>
+                <p>Developed a centralised pattern library for internal teams</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+    </article>
   </body>
 </html>
