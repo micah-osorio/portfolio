@@ -298,10 +298,6 @@ ul.main-menu {
   line-height: 1.3em;
 }
 
-.page-section {
-  margin-top: 4em;
-}
-
 .page-content p,
 .page-content li {
   color: var(--ink);
