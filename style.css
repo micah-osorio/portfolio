@@ -28,6 +28,7 @@
 .case-study h3 {
   color: var(--plum);
   font-weight: 600;
+  padding-top: 1em;
 }
 
 .case-study p,
