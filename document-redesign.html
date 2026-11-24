@@ -180,52 +180,15 @@
           <img src="document-6.png" alt="Design development of the document cover page" />
           <span style="font-size: small; font-style: italic">Design development for the document cover page</span>
         </div>
-
         
         <div class="large-8 cell">
           <h3>Technical scope</h3>
           <ul>
-            <li>Designed the document templates including document cover page and parent listing page using HTML and CSS on Squiz CMS</li>
-            <li>Document metadata moved higher with the parent page link, keeping the essential information in view</li>
-            <li>Added a permission status bar and pill label for users to identify easily whether the document is public or restricted</li>       
-            <li>Updated the listing style to align with the rest of the portal</li>            
+            <li>Designed the document document cover page and parent listing page tempaltes using HTML and CSS on Squiz CMS</li>
+            <li>Used keywords replacements to display dynamic document information including metadata, tags and document owners</li>
+            <li>Added conditional logic to show the right content to the right users based on document permissions</li>       
           </ul>
         </div>
-
-      <!-- display code -->
-      <section class="grid-x grid-margin-x project-section" id="code">
-        <h2 class="cell sub-heading">Code</h2>
-        <div class="cell">
-          <ul class="accordion" data-accordion data-allow-all-closed="true">
-            <li class="accordion-item" data-accordion-item>
-              <a href="#" class="accordion-title">View code: Permission status and pill label</a>
-              <div class="accordion-content" data-tab-content>
-            <pre><code class="language-html"><!-- Permission status bar -->
-            %begin_frontend_asset_permissions_info^contains:"asset_name"\\:"Public User",...%
-              <div class="doc-permission-status public">
-                <p class="status-info">
-                  <strong>These document(s) are public.</strong>
-                  Anyone can view and download these document(s).
-                </p>
-              </div>
-            %else_frontend_asset_permissions_info%
-              <div class="doc-permission-status internal-only">
-                <p class="status-info">
-                  <strong>These document(s) are restricted.</strong>
-                  You will need to <a href="#">log in</a> to view and download these document(s).
-                </p>
-              </div>
-            %end_frontend_asset_permissions_info%
-            
-            <!-- Permission pill label -->
-            <span class="label gre-docs-public">
-              <i class="fa-solid fa-globe small-icon"></i>Public access
-            </span></code></pre>
-              </div>
-            </li>          
-          </ul>
-        </div>
-      </section>
         
       </section>
 
