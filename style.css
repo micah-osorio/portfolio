@@ -85,6 +85,9 @@
   min-height: 26em;
 }
 
+img {
+   background-color: #f5f5f5
+}
 /* screenshot placeholder */
 .case-study .project-section img,
 .case-study .project-hero img {
