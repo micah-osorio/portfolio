@@ -321,6 +321,10 @@ ul.main-menu {
    margin-top: 2em;
 }
 
+h2.cell.home-sub-heading {
+   margin-top: 2em;
+}
+
 /* info cards */
 .info-card {
   padding: 1em;
